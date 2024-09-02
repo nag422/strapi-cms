@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_elements_button_links",
+  "info": {
+    "displayName": "Button Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "isExteranl": {
+      "type": "boolean",
+      "default": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "warning",
+        "error",
+        "info",
+        "default"
+      ]
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_rows",
+  "info": {
+    "displayName": "Row"
+  },
+  "options": {},
+  "attributes": {
+    "PriceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.card"
+    }
+  }
+}
